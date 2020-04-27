@@ -10,7 +10,7 @@
 
 Fakat `var` bunlardan çok farklıdır. Bunun dilin ilk oluşmaya başladığı zamanlara dayanır. Genelde modern stilde pek kullanılmazlar fakat yine de arada sırada görebilirsiniz.
 
-Eğer böyle bir yazımla karşılaşmayacağınıza eminseniz bu bölümü geçebiir veya sonra tekrar gelebilirsiniz.
+Eğer böyle bir yazımla karşılaşmayacağınıza eminseniz bu bölümü geçebilir veya sonra tekrar gelebilirsiniz.
 [cut]
 
 İlk görüşte `var` `let` ile benzer şekilde çalışıyormuş gibi görünür. İkisi de değişken tanımlamaya yarar:
