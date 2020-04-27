@@ -17,7 +17,7 @@ Eğer böyle bir yazımla karşılaşmayacağınıza eminseniz bu bölümü geç
 
 ```js run
 function selamVer() {
-  var terim = "Merhaba"; // yeerl değişken "let" yerine "var" kullanılmıştır.
+  var terim = "Merhaba"; // yerel değişken "let" yerine "var" kullanılmıştır.
   alert(terim); // Merhaba
 }
 
@@ -76,9 +76,9 @@ Eğer `if`, `for`'a rağmen çalışan `var` değişkenleri görürseniz bunun n
 
 ## "var" fonksiyon çalışmaya başladığında işlenir.
 
-`var` tanımları fonksiyon ( veya script ) çalıştığında tanımlanır.
+`var` tanımları fonksiyon (veya script) çalıştığında tanımlanır.
 
-Diğer bir deyişle `var` değişkenleri fonksiyon başlangıcında tanımlanır, tanımın nerede olduğu önemli değil. ( iç içe fonksiyonları hariç tabi )
+Diğer bir deyişle `var` değişkenleri fonksiyon başlangıcında tanımlanır, tanımın nerede olduğu önemli değil. (iç içe fonksiyonları hariç tabi)
 
 Aşağıdaki koda bakarsanız:
 
@@ -163,7 +163,7 @@ function selamVer() {
 selamVer();
 ``` 
   
-Tüm `var` tanımları fonksiyon başladığında işlendiğinden dolayı, istenildiği yerlere bu değişkenlere erişim bulunmaktadır. Fakat değişkenler atama yapılana kadar tanımsızdır ( undefined ).
+Tüm `var` tanımları fonksiyon başladığında işlendiğinden dolayı, istenildiği yerlere bu değişkenlere erişim bulunmaktadır. Fakat değişkenler atama yapılana kadar tanımsızdır (undefined).
 
 Yukarıdaki her iki `alert` örneği de hatasız çalışmaktadır çünkü `terim` mevcuttur. Değeri atanmadığından `undefined` göstermiştir.
 
